@@ -54,5 +54,17 @@
   &--lg {
     padding-right: 3em;
     font-weight: 700;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
   }
+}
+
+.site-logo {
+  height: $masthead-height - 30px;
+  width: auto;
+  margin-right: 0.5em;
+  vertical-align: middle;
 }
